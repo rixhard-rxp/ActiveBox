@@ -1,0 +1,174 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*///////////// */
+/*    Header    */
+/*///////////// */
+
+header {
+    background-image: linear-gradient(rgba(51, 55, 92, 0.9), rgba(51, 55, 92, 0.9)) ,url(../assets/images/Layer\ 34.png);
+    padding: 1% 18%;
+}
+
+/*    nav    */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2.5% 0%;
+}
+
+.navbarBrand {
+	display: flex;
+}
+
+.titleActive {
+	font-family: 'Raleway';
+	font-weight: 900;
+	color: rgb(103, 105, 125);
+}
+
+.titleBox {
+	font-family: 'Raleway';
+	font-weight: 100;
+	color: rgb(255, 255, 255);
+}
+
+
+ul {
+	display: flex;
+}
+
+li {
+	list-style: none;
+	font-size: 12px;
+    font-family: 'Raleway';
+	font-weight: 700;
+	padding-left: 40px;
+	color: rgb(166, 166, 166);
+}
+
+
+hr {
+  border: none;      
+  height: 1px;       
+  background-color: rgba(255, 255, 255, 0.2); 
+  width: 100%;      
+}
+
+
+.containerHeader {
+	padding: 0% 10%;
+	margin: 10% auto
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+	font-family: 'Open Sans';
+	text-align: center;
+	line-height: 1;
+	margin: 2% auto;
+}
+
+.containerHeader p {
+	font-family: 'Raleway';
+	color: rgba(255, 255, 255, 0.761);
+	text-align: center;
+}
+
+.buttonHeader {
+	color: rgba(255, 255, 255);
+	background-color: rgb(214, 82, 77);
+	font-size: 12px;
+    font-family: 'Raleway';
+	font-weight: 500;
+	border: none;
+	padding: 2% 6%;
+	display: flex;
+	justify-content: center;
+	margin: 10% auto;
+}
+
+/*/////////////// */
+/*    Features    */
+/*/////////////// */
+
+.features {
+    padding: 7% 20%;
+}
+
+.featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 52px 30px;
+}
+
+.featureItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureItem img {
+    height: 52px;
+    margin-bottom: 20px;
+}
+
+.featureItem h3 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 14px;
+}
+
+.featureItem p {
+	font-family: 'Raleway';
+    font-size: 11.5px;
+    font-weight: 600;
+    color: rgb(103, 105, 125);
+    line-height: 1.85;
+    max-width: 300px;
+}
+
+
+/*//////////////*/
+/*    Photos    */
+/*//////////////*/
+
+.photos {
+    display: block;
+    line-height: 0;
+}
+
+.photosGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0;
+}
+
+.photoItem {
+    overflow: hidden;
+    position: relative;
+    line-height: 0;
+}
+
+.photoItem img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*/////////////////*/
+/*    Team Work    */
+/*/////////////////*/
